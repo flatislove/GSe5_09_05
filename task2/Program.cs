@@ -35,7 +35,7 @@ void FindPointIntersection(int k1, int b1, int k2, int b2)
     }
     else
     {
-        x = (b2 - b1) / (k2 - k1);
+        x = (b1 - b2) / (k2 - k1);
         y = k2 * x + b2;
         Console.WriteLine($"x={x} y={y}");
     }
